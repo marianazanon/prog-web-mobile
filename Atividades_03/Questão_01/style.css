@@ -1,0 +1,12 @@
+body {
+    background:  url("https://www.worldatlas.com/r/w1300-q80/upload/fc/62/4f/shutterstock-1011270001.jpg") ;
+    background-size:auto;
+}
+    
+    h1{
+        border-color:  green;
+        border-width: 2px;
+        border-style: solid;
+        background-color: red;
+
+    }
