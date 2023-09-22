@@ -1,0 +1,34 @@
+
+header {
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+}
+.container {
+    display: flex;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.produto {
+    background-color: green;
+    margin: 5px;
+    padding: 15px;
+    text-align: center;
+    width: calc(20% - 20px);
+    
+}
+img {
+    
+    width: 150px;
+    height: auto;
+    
+}
+footer {
+    background-color: gray;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
