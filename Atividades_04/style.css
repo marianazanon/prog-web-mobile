@@ -1,0 +1,38 @@
+body {
+    background-color: palevioletred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.cadastros {
+    background-color: darkorange;
+    width: 300px;
+    padding: 30px;
+  
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+   
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
