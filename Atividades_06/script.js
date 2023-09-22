@@ -8,8 +8,8 @@ jogar.addEventListener("click", () => {
   const valor2 = Math.floor(Math.random() * 6) + 1;
   
 
-  dado1.src = `img/Dados-${valor1}.png`;
-  dado2.src = `img/Dados-${valor2}.png`;
+  dado1.src = `img/Dados-${valor1}.jpeg`;
+  dado2.src = `img/Dados-${valor2}.jpeg`;
   var sum = valor1 + valor2;
 
   if (sum === 7 || sum === 11) {
