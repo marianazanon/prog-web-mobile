@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Open Library Book Info</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Xeno-canto Bird Sound API</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Open Library Book Information</h1>
-    <button id="getInfoButton">Get Book Info</button>
-    <div id="bookInfo"></div>
+    <h1>Xeno-canto Bird Sound API</h1>
+    <form>
+        <label for="search">Search for Bird Species:</label>
+        <input type="text" id="search" placeholder="Enter species name" />
+        <button type="button" id="searchButton">Search</button>
+    </form>
+    <div id="results"></div>
+
+    <audio id="audioPlayer" controls>
+        Your browser does not support the audio element.
+    </audio>
 
     <script src="app.js"></script>
 </body>
